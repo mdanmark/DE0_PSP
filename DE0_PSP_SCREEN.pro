@@ -1,11 +1,6 @@
-update=Tue 23 Oct 2012 20:35:18 CEST
+update=Tue 23 Oct 2012 22:28:04 CEST
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -24,7 +19,6 @@ EdgeLar=80
 TxtLar=120
 MSegLar=120
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -36,6 +30,8 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
+LibName12=kicad/own
+LibDir=
 [general]
 version=1
 [eeschema]
@@ -78,3 +74,8 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=kicad/own
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

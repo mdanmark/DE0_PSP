@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Tue 23 Oct 2012 22:28:55 CEST
+
+BeginCmp
+TimeStamp = /5086F785;
+Reference = P1;
+ValeurCmp = PSP1000LCD;
+IdModule  = psp1000con;
+EndCmp
+
+BeginCmp
+TimeStamp = /5086FB34;
+Reference = P2;
+ValeurCmp = DE0_GPIO_0;
+IdModule  = PIN_ARRAY_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5086FB43;
+Reference = P3;
+ValeurCmp = DE0_GPIO_1;
+IdModule  = PIN_ARRAY_20X2;
+EndCmp
+
+EndListe

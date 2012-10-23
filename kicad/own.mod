@@ -1,5 +1,6 @@
 PCBNEW-LibModule-V1  tir 23 okt 2012 18:39:53 CEST
 # encoding utf-8
+Units mm
 $INDEX
 psp1000con
 psp1000conled
