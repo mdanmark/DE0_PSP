@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 23 Oct 2012 20:46:24 CEST
+EESchema-DOCLIB  Version 2.0  Date: Wed 24 Oct 2012 22:22:47 CEST
 #
 $CMP BARREL_JACK
 D DC Barrel Jack
@@ -242,6 +242,12 @@ $ENDCMP
 $CMP INV3
 D Symbole general de connecteur
 K CONN
+$ENDCMP
+#
+$CMP LT1932
+D MICROPOWER 150mA Regulator   tiny SOT-23 5-leads package
+K REGUL POWER
+F linear-tec\lt1761.pdf
 $ENDCMP
 #
 $CMP MC34063

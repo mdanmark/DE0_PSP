@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 24 Oct 2012 17:17:25 CEST
+EESchema Schematic File Version 2  date Wed 24 Oct 2012 22:22:10 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date "24 oct 2012"
 Rev ""
@@ -578,4 +578,10 @@ F 1 "3V3" H 3050 6475 40  0000 C CNN
 	1    3050 6350
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 5150 6000 1350 950 
+U 50883C16
+F0 "Sheet50883C15" 60
+F1 "file50883C15.sch" 60
+$EndSheet
 $EndSCHEMATC
