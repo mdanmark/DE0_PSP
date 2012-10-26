@@ -1,6 +1,6 @@
-update=Tue 23 Oct 2012 22:28:04 CEST
+update=Fri 26 Oct 2012 11:10:38 CEST
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -34,6 +34,11 @@ LibName12=kicad/own
 LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -74,8 +79,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=kicad/own
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms

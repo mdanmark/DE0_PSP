@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 24 Oct 2012 22:22:10 CEST
+EESchema Schematic File Version 2  date Fri 26 Oct 2012 12:17:58 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
-Date "24 oct 2012"
+Date "26 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -328,7 +328,9 @@ Wire Wire Line
 Wire Wire Line
 	9100 2950 9450 2950
 Wire Wire Line
-	9450 2950 9450 2050
+	9450 2950 9450 2500
+Wire Wire Line
+	9450 2500 9450 2050
 Wire Wire Line
 	9450 2050 9100 2050
 Wire Wire Line
@@ -337,7 +339,9 @@ Wire Wire Line
 	9850 2500 9850 2800
 Connection ~ 9450 2500
 Wire Wire Line
-	1700 1350 1700 1450
+	1700 1350 1700 1400
+Wire Wire Line
+	1700 1400 1700 1450
 Wire Wire Line
 	1700 1400 1200 1400
 Wire Wire Line
@@ -368,14 +372,18 @@ Wire Wire Line
 Wire Wire Line
 	2900 1350 3050 1350
 Wire Wire Line
-	3050 1350 3050 1450
+	3050 1350 3050 1400
+Wire Wire Line
+	3050 1400 3050 1450
 Wire Wire Line
 	3050 1400 3200 1400
 Connection ~ 3050 1400
 Wire Wire Line
 	3200 1400 3200 1500
 Wire Wire Line
-	1700 1550 1700 1650
+	1700 1550 1700 1600
+Wire Wire Line
+	1700 1600 1700 1650
 Wire Wire Line
 	1700 1600 1550 1600
 Connection ~ 1700 1600
@@ -400,7 +408,9 @@ F 1 "PSP1000LED" H 2250 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 1750 2900 1850
+	2900 1750 2900 1800
+Wire Wire Line
+	2900 1800 2900 1850
 Wire Wire Line
 	2900 1800 3300 1800
 Connection ~ 2900 1800
@@ -424,164 +434,57 @@ F 1 "+5V" H 8000 2140 30  0000 C CNN
 	1    8000 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_3 K?
-U 1 1 5088053C
-P 6650 950
-F 0 "K?" V 6600 950 50  0000 C CNN
-F 1 "CONN_3" V 6700 950 40  0000 C CNN
-	1    6650 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 850  6150 850 
-Wire Wire Line
-	6100 950  6300 950 
-$Comp
-L +5V #PWR?
-U 1 1 5088064A
-P 6150 850
-F 0 "#PWR?" H 6150 940 20  0001 C CNN
-F 1 "+5V" H 6150 940 30  0000 C CNN
-	1    6150 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5VA #PWR?
-U 1 1 50880716
-P 6100 950
-F 0 "#PWR?" H 6100 1080 20  0001 C CNN
-F 1 "+5VA" H 6100 1050 30  0000 C CNN
-	1    6100 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 1050 6150 1050
-Wire Wire Line
-	6150 1050 6150 1100
-$Comp
-L GND #PWR?
-U 1 1 508807F0
-P 6150 1100
-F 0 "#PWR?" H 6150 1100 30  0001 C CNN
-F 1 "GND" H 6150 1030 30  0001 C CNN
-	1    6150 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C?
-U 1 1 508807FF
-P 2200 6750
-F 0 "C?" H 2250 6850 50  0000 L CNN
-F 1 "4.7 uF" H 2250 6650 50  0000 L CNN
-	1    2200 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5088080E
-P 1900 6750
-F 0 "C?" H 1950 6850 50  0000 L CNN
-F 1 "100 n" H 1950 6650 50  0000 L CNN
-	1    1900 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5088081D
-P 1600 6750
-F 0 "C?" H 1650 6850 50  0000 L CNN
-F 1 "10 n" H 1650 6650 50  0000 L CNN
-	1    1600 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 6550 2200 6550
-Connection ~ 1900 6550
-Wire Wire Line
-	1600 6950 2200 6950
-Connection ~ 1900 6950
-Wire Wire Line
-	1900 6950 1900 7150
-Wire Wire Line
-	1900 6550 1900 6350
-$Comp
-L +5VA #PWR?
-U 1 1 50880B57
-P 1900 6350
-F 0 "#PWR?" H 1900 6480 20  0001 C CNN
-F 1 "+5VA" H 1900 6450 30  0000 C CNN
-	1    1900 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 50880D2D
-P 1900 7150
-F 0 "#PWR?" H 1900 7150 30  0001 C CNN
-F 1 "GND" H 1900 7080 30  0001 C CNN
-	1    1900 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C?
-U 1 1 50880D3A
-P 3350 6750
-F 0 "C?" H 3400 6850 50  0000 L CNN
-F 1 "4.7 uF" H 3400 6650 50  0000 L CNN
-	1    3350 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 50880D40
-P 3050 6750
-F 0 "C?" H 3100 6850 50  0000 L CNN
-F 1 "100 n" H 3100 6650 50  0000 L CNN
-	1    3050 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 50880D46
-P 2750 6750
-F 0 "C?" H 2800 6850 50  0000 L CNN
-F 1 "10 n" H 2800 6650 50  0000 L CNN
-	1    2750 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 6550 3350 6550
-Connection ~ 3050 6550
-Wire Wire Line
-	2750 6950 3350 6950
-Connection ~ 3050 6950
-Wire Wire Line
-	3050 6950 3050 7150
-Wire Wire Line
-	3050 6550 3050 6350
-$Comp
-L GND #PWR?
-U 1 1 50880D58
-P 3050 7150
-F 0 "#PWR?" H 3050 7150 30  0001 C CNN
-F 1 "GND" H 3050 7080 30  0001 C CNN
-	1    3050 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L 3V3 #PWR?
-U 1 1 50880D60
-P 3050 6350
-F 0 "#PWR?" H 3050 6450 40  0001 C CNN
-F 1 "3V3" H 3050 6475 40  0000 C CNN
-	1    3050 6350
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 5150 6000 1350 950 
 U 50883C16
 F0 "Sheet50883C15" 60
 F1 "file50883C15.sch" 60
+F2 "Vin" I L 5150 6150 60 
+F3 "Vout_backlight" I R 6500 6150 60 
+F4 "backlight_dimm" I L 5150 6300 60 
+$EndSheet
+Wire Wire Line
+	1750 4000 1500 4000
+Wire Wire Line
+	1500 4000 1500 4050
+$Comp
+L GND #PWR?
+U 1 1 508A54D8
+P 1500 4050
+F 0 "#PWR?" H 1500 4050 30  0001 C CNN
+F 1 "GND" H 1500 3980 30  0001 C CNN
+	1    1500 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4300 1600 4300
+Text Label 6500 6150 0    60   ~ 0
+backlight_vcc
+Text Label 1600 4300 2    60   ~ 0
+backlight_vcc
+Text Label 5150 6300 2    60   ~ 0
+Backlight_dimm
+Text Label 9250 4250 0    60   ~ 0
+Backlight_dimm
+Wire Wire Line
+	9100 4250 9250 4250
+Wire Wire Line
+	5150 6150 4950 6150
+Wire Wire Line
+	4950 6150 4950 6100
+$Comp
+L +5VA #PWR?
+U 1 1 508A5F9C
+P 4950 6100
+F 0 "#PWR?" H 4950 6230 20  0001 C CNN
+F 1 "+5VA" H 4950 6200 30  0000 C CNN
+	1    4950 6100
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 5250 3550 1300 1100
+U 508A654A
+F0 "Sheet508A6549" 60
+F1 "file508A6549.sch" 60
 $EndSheet
 $EndSCHEMATC
