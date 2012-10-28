@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Tue 23 Oct 2012 22:51:16 CEST
+PCBNEW-BOARD Version 2 date Tue 23 Oct 2012 22:56:39 CEST
 
 # Created by Pcbnew(2012-oct-18)-testing
 
@@ -7,10 +7,9 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 1FFFFFFF
 Links 28
 NoConn 28
-Di 22.29084 36.193599 75.1736 91.5584
+Di 22.29084 36.193599 75.20916 91.5584
 Ndraw 0
 Ntrack 0
 Nzone 0
@@ -61,7 +60,7 @@ PadDrill 0.6
 Pad2MaskClearance 0
 AuxiliaryAxisOrg 0 0
 VisibleElements FFFFFFBF
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 152400) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 152400) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
@@ -520,294 +519,294 @@ Po 16.373 -0.5
 $EndPAD
 $EndMODULE psp1000con
 $MODULE PIN_ARRAY_20X2
-Po 70.5 62 900 15 5031D84E 5087046B ~~
+Po 70.5 62 2700 15 5031D84E 5087046B ~~
 Li PIN_ARRAY_20X2
 Cd Double rangee de contacts 2 x 12 pins
 Kw CONN
 Sc 5087046B
 AR /5086FB34
 Op 0 0 0
-T0 0 -3.81 1.016 1.016 900 0.27432 N V 21 N "P2"
-T1 0 3.81 1.016 1.016 900 0.2032 N V 21 N "DE0_GPIO_0"
+T0 0 -3.81 1.016 1.016 2700 0.27432 N V 21 N "P2"
+T1 0 3.81 1.016 1.016 2700 0.2032 N V 21 N "DE0_GPIO_0"
 DS 25.4 2.54 -25.4 2.54 0.3048 21
 DS 25.4 -2.54 -25.4 -2.54 0.3048 21
 DS 25.4 -2.54 25.4 2.54 0.3048 21
 DS -25.4 -2.54 -25.4 2.54 0.3048 21
 $PAD
-Sh "1" R 1.524 1.524 0 0 900
+Sh "1" R 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -24.13 1.27
 $EndPAD
 $PAD
-Sh "2" C 1.524 1.524 0 0 900
+Sh "2" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 17 "/R0"
 Po -24.13 -1.27
 $EndPAD
 $PAD
-Sh "11" C 1.524 1.524 0 0 900
+Sh "11" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -11.43 1.27
 $EndPAD
 $PAD
-Sh "4" C 1.524 1.524 0 0 900
+Sh "4" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 18 "/R1"
 Po -21.59 -1.27
 $EndPAD
 $PAD
-Sh "13" C 1.524 1.524 0 0 900
+Sh "13" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 9 "/G0"
 Po -8.89 1.27
 $EndPAD
 $PAD
-Sh "6" C 1.524 1.524 0 0 900
+Sh "6" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 20 "/R3"
 Po -19.05 -1.27
 $EndPAD
 $PAD
-Sh "15" C 1.524 1.524 0 0 900
+Sh "15" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 11 "/G2"
 Po -6.35 1.27
 $EndPAD
 $PAD
-Sh "8" C 1.524 1.524 0 0 900
+Sh "8" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 22 "/R5"
 Po -16.51 -1.27
 $EndPAD
 $PAD
-Sh "17" C 1.524 1.524 0 0 900
+Sh "17" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 13 "/G4"
 Po -3.81 1.27
 $EndPAD
 $PAD
-Sh "10" C 1.524 1.524 0 0 900
+Sh "10" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 24 "/R7"
 Po -13.97 -1.27
 $EndPAD
 $PAD
-Sh "19" C 1.524 1.524 0 0 900
+Sh "19" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 15 "/G6"
 Po -1.27 1.27
 $EndPAD
 $PAD
-Sh "12" C 1.524 1.524 0 0 900
+Sh "12" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 25 "GND"
 Po -11.43 -1.27
 $EndPAD
 $PAD
-Sh "21" C 1.524 1.524 0 0 900
+Sh "21" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 1 "/B0"
 Po 1.27 1.27
 $EndPAD
 $PAD
-Sh "14" C 1.524 1.524 0 0 900
+Sh "14" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 10 "/G1"
 Po -8.89 -1.27
 $EndPAD
 $PAD
-Sh "23" C 1.524 1.524 0 0 900
+Sh "23" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 3 "/B2"
 Po 3.81 1.27
 $EndPAD
 $PAD
-Sh "16" C 1.524 1.524 0 0 900
+Sh "16" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 12 "/G3"
 Po -6.35 -1.27
 $EndPAD
 $PAD
-Sh "25" C 1.524 1.524 0 0 900
+Sh "25" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 5 "/B4"
 Po 6.35 1.27
 $EndPAD
 $PAD
-Sh "18" C 1.524 1.524 0 0 900
+Sh "18" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 14 "/G5"
 Po -3.81 -1.27
 $EndPAD
 $PAD
-Sh "27" C 1.524 1.524 0 0 900
+Sh "27" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 7 "/B6"
 Po 8.89 1.27
 $EndPAD
 $PAD
-Sh "20" C 1.524 1.524 0 0 900
+Sh "20" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 16 "/G7"
 Po -1.27 -1.27
 $EndPAD
 $PAD
-Sh "29" C 1.524 1.524 0 0 900
+Sh "29" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 11.43 1.27
 $EndPAD
 $PAD
-Sh "22" C 1.524 1.524 0 0 900
+Sh "22" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 2 "/B1"
 Po 1.27 -1.27
 $EndPAD
 $PAD
-Sh "31" C 1.524 1.524 0 0 900
+Sh "31" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 13.97 1.27
 $EndPAD
 $PAD
-Sh "24" C 1.524 1.524 0 0 900
+Sh "24" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 4 "/B3"
 Po 3.81 -1.27
 $EndPAD
 $PAD
-Sh "26" C 1.524 1.524 0 0 900
+Sh "26" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 6 "/B5"
 Po 6.35 -1.27
 $EndPAD
 $PAD
-Sh "33" C 1.524 1.524 0 0 900
+Sh "33" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 16.51 1.27
 $EndPAD
 $PAD
-Sh "28" C 1.524 1.524 0 0 900
+Sh "28" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 8 "/B7"
 Po 8.89 -1.27
 $EndPAD
 $PAD
-Sh "32" C 1.524 1.524 0 0 900
+Sh "32" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 13.97 -1.27
 $EndPAD
 $PAD
-Sh "34" C 1.524 1.524 0 0 900
+Sh "34" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 16.51 -1.27
 $EndPAD
 $PAD
-Sh "36" C 1.524 1.524 0 0 900
+Sh "36" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 19.05 -1.27
 $EndPAD
 $PAD
-Sh "38" C 1.524 1.524 0 0 900
+Sh "38" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 21.59 -1.27
 $EndPAD
 $PAD
-Sh "35" C 1.524 1.524 0 0 900
+Sh "35" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 19.05 1.27
 $EndPAD
 $PAD
-Sh "37" C 1.524 1.524 0 0 900
+Sh "37" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 21.59 1.27
 $EndPAD
 $PAD
-Sh "3" C 1.524 1.524 0 0 900
+Sh "3" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -21.59 1.27
 $EndPAD
 $PAD
-Sh "5" C 1.524 1.524 0 0 900
+Sh "5" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 19 "/R2"
 Po -19.05 1.27
 $EndPAD
 $PAD
-Sh "7" C 1.524 1.524 0 0 900
+Sh "7" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 21 "/R4"
 Po -16.51 1.27
 $EndPAD
 $PAD
-Sh "9" C 1.524 1.524 0 0 900
+Sh "9" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 23 "/R6"
 Po -13.97 1.27
 $EndPAD
 $PAD
-Sh "39" C 1.524 1.524 0 0 900
+Sh "39" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 24.13 1.27
 $EndPAD
 $PAD
-Sh "40" C 1.524 1.524 0 0 900
+Sh "40" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 24.13 -1.27
 $EndPAD
 $PAD
-Sh "30" C 1.524 1.524 0 0 900
+Sh "30" C 1.524 1.524 0 0 2700
 Dr 1.016 0 0
 At STD N 00E0FFFF
 Ne 25 "GND"
