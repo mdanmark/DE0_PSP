@@ -1,6 +1,6 @@
-update=Fri 26 Oct 2012 11:10:38 CEST
+update=Mon 29 Oct 2012 16:32:08 CET
 version=1
-last_client=eeschema
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -31,14 +31,10 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=kicad/own
+LibName13=kicad/w_smd_diode
 LibDir=
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -79,3 +75,8 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=kicad/own
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

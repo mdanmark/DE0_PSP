@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 28 Oct 2012 15:35:36 CET
+EESchema Schematic File Version 2  date Mon 29 Oct 2012 16:35:26 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "LCD backlight driver"
-Date "28 oct 2012"
+Date "29 oct 2012"
 Rev "0.1"
 Comp ""
 Comment1 ""
