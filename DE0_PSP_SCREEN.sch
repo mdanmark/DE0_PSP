@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 29 Oct 2012 16:35:26 CET
+EESchema Schematic File Version 2  date Thu 01 Nov 2012 14:43:35 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:own
+LIBS:opendous
 LIBS:DE0_PSP_SCREEN-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
-Date "29 oct 2012"
+Date "1 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -489,4 +490,77 @@ F 1 "GND" H 9900 5180 30  0001 C CNN
 	1    9900 5250
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_2 P5
+U 1 1 50927695
+P 3350 5250
+F 0 "P5" V 3300 5250 40  0000 C CNN
+F 1 "CONN_2" V 3400 5250 40  0000 C CNN
+	1    3350 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5150 2850 5150
+Wire Wire Line
+	3000 5350 2850 5350
+Text Label 2850 5150 2    60   ~ 0
+6-24V
+$Comp
+L GND #PWR07
+U 1 1 50927877
+P 2850 5350
+F 0 "#PWR07" H 2850 5350 30  0001 C CNN
+F 1 "GND" H 2850 5280 30  0001 C CNN
+	1    2850 5350
+	1    0    0    -1  
+$EndComp
+Text Label 5250 3700 2    60   ~ 0
+6-24V
+$Sheet
+S 2000 5950 1500 1250
+U 509280A4
+F0 "Sheet509280A3" 60
+F1 "microSD.sch" 60
+F2 "DAT3" I L 2000 6050 60 
+F3 "DAT2" I L 2000 6150 60 
+F4 "DAT1" I L 2000 6250 60 
+F5 "DAT0" I L 2000 6350 60 
+F6 "CLK" I L 2000 6450 60 
+F7 "CMD" I L 2000 6550 60 
+F8 "3.3v" I L 2000 6700 60 
+$EndSheet
+Text Label 2000 6700 2    60   ~ 0
+3v3Vreg
+Text Label 2000 6050 2    60   ~ 0
+DAT3
+Text Label 2000 6150 2    60   ~ 0
+DAT2
+Text Label 2000 6250 2    60   ~ 0
+DAT1
+Text Label 2000 6350 2    60   ~ 0
+DAT0
+Text Label 2000 6450 2    60   ~ 0
+CLK
+Text Label 2000 6550 2    60   ~ 0
+CMD
+Text Label 8150 4450 2    60   ~ 0
+DAT3
+Text Label 9250 4450 0    60   ~ 0
+DAT2
+Text Label 8150 4550 2    60   ~ 0
+DAT1
+Text Label 9250 4650 0    60   ~ 0
+CLK
+Text Label 8150 4650 2    60   ~ 0
+CMD
+Wire Wire Line
+	8300 4450 8150 4450
+Wire Wire Line
+	9100 4450 9250 4450
+Wire Wire Line
+	8300 4550 8150 4550
+Wire Wire Line
+	9100 4650 9250 4650
+Wire Wire Line
+	8300 4650 8150 4650
 $EndSCHEMATC

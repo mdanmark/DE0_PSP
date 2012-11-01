@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 29 Oct 2012 16:35:26 CET
+EESchema Schematic File Version 2  date Thu 01 Nov 2012 14:43:35 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:own
+LIBS:opendous
 LIBS:DE0_PSP_SCREEN-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title "power supply"
-Date "29 oct 2012"
+Date "1 nov 2012"
 Rev "0.1"
 Comp ""
 Comment1 ""
@@ -94,10 +95,10 @@ Wire Wire Line
 Wire Wire Line
 	2800 1050 2800 850 
 $Comp
-L GND #PWR08
+L GND #PWR09
 U 1 1 508A66C1
 P 2800 1650
-F 0 "#PWR08" H 2800 1650 30  0001 C CNN
+F 0 "#PWR09" H 2800 1650 30  0001 C CNN
 F 1 "GND" H 2800 1580 30  0001 C CNN
 	1    2800 1650
 	1    0    0    -1  
@@ -157,10 +158,10 @@ Wire Wire Line
 Wire Wire Line
 	1200 2650 1200 2700
 $Comp
-L GND #PWR09
+L GND #PWR010
 U 1 1 508D28C4
 P 1200 2700
-F 0 "#PWR09" H 1200 2700 30  0001 C CNN
+F 0 "#PWR010" H 1200 2700 30  0001 C CNN
 F 1 "GND" H 1200 2630 30  0001 C CNN
 	1    1200 2700
 	1    0    0    -1  
@@ -238,10 +239,10 @@ Wire Wire Line
 	3850 4500 3850 4700
 Connection ~ 3850 4500
 $Comp
-L GND #PWR010
+L GND #PWR011
 U 1 1 508D301C
 P 3850 4700
-F 0 "#PWR010" H 3850 4700 30  0001 C CNN
+F 0 "#PWR011" H 3850 4700 30  0001 C CNN
 F 1 "GND" H 3850 4630 30  0001 C CNN
 	1    3850 4700
 	1    0    0    -1  
@@ -313,10 +314,10 @@ Wire Wire Line
 Wire Wire Line
 	7800 3300 7800 3400
 $Comp
-L GND #PWR011
+L GND #PWR012
 U 1 1 508D3C07
 P 7800 3400
-F 0 "#PWR011" H 7800 3400 30  0001 C CNN
+F 0 "#PWR012" H 7800 3400 30  0001 C CNN
 F 1 "GND" H 7800 3330 30  0001 C CNN
 	1    7800 3400
 	1    0    0    -1  
@@ -356,10 +357,10 @@ Wire Wire Line
 Wire Wire Line
 	9300 4150 9300 4250
 $Comp
-L GND #PWR012
+L GND #PWR013
 U 1 1 508D3EFA
 P 9300 4250
-F 0 "#PWR012" H 9300 4250 30  0001 C CNN
+F 0 "#PWR013" H 9300 4250 30  0001 C CNN
 F 1 "GND" H 9300 4180 30  0001 C CNN
 	1    9300 4250
 	1    0    0    -1  
@@ -467,10 +468,10 @@ Text Label 1000 6200 0    60   ~ 0
 Text Label 1000 6000 0    60   ~ 0
 5vENA
 $Comp
-L GND #PWR013
+L GND #PWR014
 U 1 1 508E96BB
 P 1000 2050
-F 0 "#PWR013" H 1000 2050 30  0001 C CNN
+F 0 "#PWR014" H 1000 2050 30  0001 C CNN
 F 1 "GND" H 1000 1980 30  0001 C CNN
 	1    1000 2050
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-update=Mon 29 Oct 2012 16:32:08 CET
+update=Thu 01 Nov 2012 14:12:02 CET
 version=1
 last_client=cvpcb
 [pcbnew]
@@ -32,6 +32,7 @@ LibName10=pga_sockets
 LibName11=valves
 LibName12=kicad/own
 LibName13=kicad/w_smd_diode
+LibName14=kicad/modules/opendous
 LibDir=
 [general]
 version=1
@@ -75,6 +76,7 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=kicad/own
+LibName32=kicad/library/opendous
 [cvpcb]
 version=1
 NetIExt=net

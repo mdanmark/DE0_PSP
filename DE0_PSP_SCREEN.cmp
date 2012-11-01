@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Mon 29 Oct 2012 16:33:00 CET
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Thu 01 Nov 2012 14:12:59 CET
 
 BeginCmp
 TimeStamp = /50883C16/50884A0D;
@@ -22,10 +22,24 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /509280A4/50928256;
+Reference = C4;
+ValeurCmp = 4.7_uF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
 TimeStamp = /508A654A/508D28A1;
 Reference = C5;
 ValeurCmp = 10uF;
 IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /509280A4/50928265;
+Reference = C6;
+ValeurCmp = 100_nF;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -176,6 +190,13 @@ IdModule  = 1pin;
 EndCmp
 
 BeginCmp
+TimeStamp = /50927695;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /50883C16/50884CAA;
 Reference = Q1;
 ValeurCmp = BC547;
@@ -246,6 +267,48 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /509280A4/508A882E;
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /509280A4/508A8F8D;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /509280A4/508A8827;
+Reference = R12;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /509280A4/508A8821;
+Reference = R13;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /509280A4/508A8E2C;
+Reference = R14;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /509280A4/508A8816;
+Reference = R15;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /50883C16/508849D1;
 Reference = U1;
 ValeurCmp = LT1932;
@@ -264,6 +327,13 @@ TimeStamp = /508A654A/508D390F;
 Reference = U3;
 ValeurCmp = LP2985;
 IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /509280A4/508A83EE;
+Reference = U4;
+ValeurCmp = CONN_MICROSD;
+IdModule  = Memory_Card_microSD_3M_290805;
 EndCmp
 
 EndListe

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 29 Oct 2012 16:35:26 CET
+EESchema Schematic File Version 2  date Thu 01 Nov 2012 14:43:35 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:own
+LIBS:opendous
 LIBS:DE0_PSP_SCREEN-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title "LCD backlight driver"
-Date "29 oct 2012"
+Date "1 nov 2012"
 Rev "0.1"
 Comp ""
 Comment1 ""
@@ -176,10 +177,10 @@ Wire Wire Line
 	4950 4400 4950 4500
 Connection ~ 4950 4400
 $Comp
-L GND #PWR07
+L GND #PWR08
 U 1 1 50884EBB
 P 4950 4500
-F 0 "#PWR07" H 4950 4500 30  0001 C CNN
+F 0 "#PWR08" H 4950 4500 30  0001 C CNN
 F 1 "GND" H 4950 4430 30  0001 C CNN
 	1    4950 4500
 	1    0    0    -1  
