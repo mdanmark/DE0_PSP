@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 01 Nov 2012 14:10:13 CET
+EESchema Schematic File Version 2  date Wed 07 Nov 2012 15:03:53 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
-Date "1 nov 2012"
+Date "7 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -386,8 +386,8 @@ U 50883C16
 F0 "Sheet50883C15" 60
 F1 "file50883C15.sch" 60
 F2 "Vin" I L 5150 6150 60 
-F3 "Vout_backlight" I R 6500 6150 60 
-F4 "backlight_dimm" I L 5150 6300 60 
+F3 "Vout" I L 5150 6600 60 
+F4 "dimm" I L 5150 6400 60 
 $EndSheet
 Wire Wire Line
 	1750 4000 1500 4000
@@ -402,16 +402,8 @@ F 1 "GND" H 1500 3980 30  0001 C CNN
 	1    1500 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1750 4300 1600 4300
-Text Label 6500 6150 0    60   ~ 0
-backlight_vcc
-Text Label 1600 4300 2    60   ~ 0
-backlight_vcc
-Text Label 5150 6300 2    60   ~ 0
-Backlight_dimm
 Text Label 9250 4250 0    60   ~ 0
-Backlight_dimm
+dimm
 Wire Wire Line
 	9100 4250 9250 4250
 Wire Wire Line
@@ -491,10 +483,10 @@ F 1 "GND" H 9900 5180 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P?
+L CONN_2 P5
 U 1 1 50927695
 P 3350 5250
-F 0 "P?" V 3300 5250 40  0000 C CNN
+F 0 "P5" V 3300 5250 40  0000 C CNN
 F 1 "CONN_2" V 3400 5250 40  0000 C CNN
 	1    3350 5250
 	1    0    0    -1  
@@ -506,10 +498,10 @@ Wire Wire Line
 Text Label 2850 5150 2    60   ~ 0
 6-24V
 $Comp
-L GND #PWR?
+L GND #PWR07
 U 1 1 50927877
 P 2850 5350
-F 0 "#PWR?" H 2850 5350 30  0001 C CNN
+F 0 "#PWR07" H 2850 5350 30  0001 C CNN
 F 1 "GND" H 2850 5280 30  0001 C CNN
 	1    2850 5350
 	1    0    0    -1  
@@ -563,4 +555,16 @@ Wire Wire Line
 	9100 4650 9250 4650
 Wire Wire Line
 	8300 4650 8150 4650
+Wire Wire Line
+	1750 4300 1500 4300
+Wire Wire Line
+	1500 4300 1500 5450
+Wire Wire Line
+	1500 5450 3650 5450
+Wire Wire Line
+	3650 5450 3650 6600
+Wire Wire Line
+	3650 6600 5150 6600
+Text Label 5150 6400 2    60   ~ 0
+dimm
 $EndSCHEMATC

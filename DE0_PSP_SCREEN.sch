@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 01 Nov 2012 14:43:35 CET
+EESchema Schematic File Version 2  date Thu 08 Nov 2012 00:17:25 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
-Date "1 nov 2012"
+Date "7 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -386,32 +386,14 @@ U 50883C16
 F0 "Sheet50883C15" 60
 F1 "file50883C15.sch" 60
 F2 "Vin" I L 5150 6150 60 
-F3 "Vout_backlight" I R 6500 6150 60 
-F4 "backlight_dimm" I L 5150 6300 60 
+F3 "Vout" I L 5150 6600 60 
+F4 "dimm" I L 5150 6400 60 
+F5 "Vout-" I L 5150 6750 60 
 $EndSheet
 Wire Wire Line
 	1750 4000 1500 4000
-Wire Wire Line
-	1500 4000 1500 4050
-$Comp
-L GND #PWR05
-U 1 1 508A54D8
-P 1500 4050
-F 0 "#PWR05" H 1500 4050 30  0001 C CNN
-F 1 "GND" H 1500 3980 30  0001 C CNN
-	1    1500 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 4300 1600 4300
-Text Label 6500 6150 0    60   ~ 0
-backlight_vcc
-Text Label 1600 4300 2    60   ~ 0
-backlight_vcc
-Text Label 5150 6300 2    60   ~ 0
-Backlight_dimm
 Text Label 9250 4250 0    60   ~ 0
-Backlight_dimm
+dimm
 Wire Wire Line
 	9100 4250 9250 4250
 Wire Wire Line
@@ -563,4 +545,20 @@ Wire Wire Line
 	9100 4650 9250 4650
 Wire Wire Line
 	8300 4650 8150 4650
+Wire Wire Line
+	1750 4300 1500 4300
+Wire Wire Line
+	1500 4300 1500 5450
+Wire Wire Line
+	1500 5450 3650 5450
+Wire Wire Line
+	3650 5450 3650 6600
+Wire Wire Line
+	3650 6600 5150 6600
+Text Label 5150 6400 2    60   ~ 0
+dimm
+Text Label 5150 6750 2    60   ~ 0
+Vout-
+Text Label 1500 4000 2    60   ~ 0
+Vout-
 $EndSCHEMATC

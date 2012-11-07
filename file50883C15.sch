@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 01 Nov 2012 14:43:35 CET
+EESchema Schematic File Version 2  date Thu 08 Nov 2012 00:17:25 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "LCD backlight driver"
-Date "1 nov 2012"
+Date "7 nov 2012"
 Rev "0.1"
 Comp ""
 Comment1 ""
@@ -206,34 +206,40 @@ L R R1
 U 1 1 508851BA
 P 3500 3600
 F 0 "R1" V 3580 3600 50  0000 C CNN
-F 1 "300?" V 3500 3600 50  0000 C CNN
+F 1 "300" V 3500 3600 50  0000 C CNN
 	1    3500 3600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3500 3350 3650 3350
-Wire Wire Line
-	3500 3850 3500 3950
-Wire Wire Line
-	3500 3950 3300 3950
-Text Label 3300 3950 0    60   ~ 0
-DIMM_PWM
 Connection ~ 3000 2400
 Text Label 2650 2400 2    60   ~ 0
 Vin
 Connection ~ 6250 2400
-Text Label 6450 2400 0    60   ~ 0
-Vout
 Text HLabel 1450 1300 0    60   Input ~ 0
 Vin
-Text HLabel 1450 1450 0    60   Input ~ 0
-Vout_backlight
-Text HLabel 1450 1600 0    60   Input ~ 0
-backlight_dimm
-Text Label 1450 1600 0    60   ~ 0
-DIMM_PWM
 Text Label 1450 1300 0    60   ~ 0
 Vin
-Text Label 1450 1450 0    60   ~ 0
+Connection ~ 6250 2750
+Connection ~ 6250 3150
+Connection ~ 5950 3750
+Connection ~ 5950 3250
+Connection ~ 5750 2950
+Connection ~ 5450 2750
+Connection ~ 5450 3150
+Connection ~ 4950 2400
+Connection ~ 4550 2400
+Text HLabel 6450 2400 2    60   Input ~ 0
 Vout
+Wire Wire Line
+	3500 3850 3550 3850
+Wire Wire Line
+	3550 3850 3550 3950
+Wire Wire Line
+	3550 3950 3500 3950
+Text HLabel 3500 3950 0    60   Input ~ 0
+dimm
+Connection ~ 3500 3850
+Text HLabel 5450 3400 2    60   Input ~ 0
+Vout-
 $EndSCHEMATC

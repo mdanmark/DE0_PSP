@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Sun 28 Oct 2012 13:58:15 CET
+EESchema-LIBRARY Version 2.3  Date: Wed 07 Nov 2012 14:30:40 CET
 #encoding utf-8
 #
 # AP5100
@@ -3145,7 +3145,7 @@ S -200 250 200 -250 0 1 0 N
 X Vled- 1 -500 150 300 R 50 50 1 1 I
 X NC 2 -500 50 300 R 50 50 1 1 N
 X NC 3 -500 -50 300 R 50 50 1 1 N
-X Vled+ 4 -500 -150 300 R 50 50 1 1 O
+X Vled+ 4 -500 -150 300 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

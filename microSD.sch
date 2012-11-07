@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 01 Nov 2012 14:43:35 CET
+EESchema Schematic File Version 2  date Thu 08 Nov 2012 00:17:25 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title "SD card"
-Date "1 nov 2012"
+Date "7 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -247,4 +247,5 @@ F 1 "GND" H 4750 1880 30  0001 C CNN
 $EndComp
 Text Label 4250 1400 2    60   ~ 0
 3.3v
+Connection ~ 5300 3600
 $EndSCHEMATC

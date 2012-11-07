@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Thu 01 Nov 2012 14:12:59 CET
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Thu 08 Nov 2012 00:11:09 CET
 
 BeginCmp
 TimeStamp = /50883C16/50884A0D;
@@ -102,21 +102,21 @@ BeginCmp
 TimeStamp = /50883C16/508849EF;
 Reference = D1;
 ValeurCmp = ZETEX_ZHCS400;
-IdModule  = ;
+IdModule  = sod323;
 EndCmp
 
 BeginCmp
 TimeStamp = /50883C16/50884C55;
 Reference = D2;
 ValeurCmp = ZENER_30V;
-IdModule  = ;
+IdModule  = sod123;
 EndCmp
 
 BeginCmp
 TimeStamp = /508A654A/508D303A;
 Reference = D3;
 ValeurCmp = B230A;
-IdModule  = sod123;
+IdModule  = SOD123;
 EndCmp
 
 BeginCmp
@@ -158,7 +158,7 @@ BeginCmp
 TimeStamp = /508A654A/508D2E9B;
 Reference = L2;
 ValeurCmp = 3.3uH;
-IdModule  = SM1210;
+IdModule  = SPM6530;
 EndCmp
 
 BeginCmp
@@ -186,7 +186,7 @@ BeginCmp
 TimeStamp = /508800B8;
 Reference = P4;
 ValeurCmp = PSP1000LED;
-IdModule  = 1pin;
+IdModule  = psp_backlight;
 EndCmp
 
 BeginCmp
@@ -200,13 +200,13 @@ BeginCmp
 TimeStamp = /50883C16/50884CAA;
 Reference = Q1;
 ValeurCmp = BC547;
-IdModule  = TO92;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /50883C16/508851BA;
 Reference = R1;
-ValeurCmp = 300?;
+ValeurCmp = 300;
 IdModule  = SM0805;
 EndCmp
 

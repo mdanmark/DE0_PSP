@@ -1,4 +1,4 @@
-update=Thu 01 Nov 2012 14:12:02 CET
+update=Wed 07 Nov 2012 15:42:42 CET
 version=1
 last_client=cvpcb
 [pcbnew]
@@ -33,7 +33,8 @@ LibName11=valves
 LibName12=kicad/own
 LibName13=kicad/w_smd_diode
 LibName14=kicad/modules/opendous
-LibDir=
+LibName15=kicad/mod_smd_inductors/w_smd_inductors
+LibDir=kicad/walter/smd_inductors
 [general]
 version=1
 [eeschema]

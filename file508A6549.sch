@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 01 Nov 2012 14:43:35 CET
+EESchema Schematic File Version 2  date Thu 08 Nov 2012 00:17:25 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "power supply"
-Date "1 nov 2012"
+Date "7 nov 2012"
 Rev "0.1"
 Comp ""
 Comment1 ""
@@ -186,7 +186,7 @@ L INDUCTOR_SMALL L2
 U 1 1 508D2E9B
 P 4000 3300
 F 0 "L2" H 4000 3400 50  0000 C CNN
-F 1 "3.3uH" H 4000 3250 50  0000 C CNN
+F 1 "3.3uH SPM6530" H 4000 3250 50  0000 C CNN
 	1    4000 3300
 	1    0    0    -1  
 $EndComp
@@ -485,4 +485,6 @@ Connection ~ 9550 3050
 Connection ~ 1400 3050
 Connection ~ 3450 3300
 Connection ~ 3450 3700
+Connection ~ 1750 3050
+Connection ~ 1750 3550
 $EndSCHEMATC
