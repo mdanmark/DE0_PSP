@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 08 Nov 2012 00:17:25 CET
+EESchema Schematic File Version 2  date Thu 08 Nov 2012 11:50:00 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title "SD card"
-Date "7 nov 2012"
+Date "8 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -153,19 +153,19 @@ F 1 "10k" V 4950 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L GND #PWR014
 U 1 1 508A856B
 P 6100 3850
-F 0 "#PWR015" H 6100 3850 30  0001 C CNN
+F 0 "#PWR014" H 6100 3850 30  0001 C CNN
 F 1 "GND" H 6100 3780 30  0001 C CNN
 	1    6100 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L GND #PWR015
 U 1 1 508A8432
 P 5050 3750
-F 0 "#PWR016" H 5050 3750 30  0001 C CNN
+F 0 "#PWR015" H 5050 3750 30  0001 C CNN
 F 1 "GND" H 5050 3680 30  0001 C CNN
 	1    5050 3750
 	1    0    0    -1  
@@ -237,10 +237,10 @@ Wire Wire Line
 	4750 1800 4750 1950
 Connection ~ 4750 1800
 $Comp
-L GND #PWR017
+L GND #PWR016
 U 1 1 50928342
 P 4750 1950
-F 0 "#PWR017" H 4750 1950 30  0001 C CNN
+F 0 "#PWR016" H 4750 1950 30  0001 C CNN
 F 1 "GND" H 4750 1880 30  0001 C CNN
 	1    4750 1950
 	1    0    0    -1  

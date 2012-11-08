@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 08 Nov 2012 00:17:25 CET
+EESchema Schematic File Version 2  date Thu 08 Nov 2012 11:50:00 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
-Date "7 nov 2012"
+Date "8 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -94,21 +94,21 @@ Text Label 3050 2650 2    60   ~ 0
 B6
 Text Label 3050 2550 2    60   ~ 0
 B7
-Text Label 9250 1550 2    60   ~ 0
+Text Label 9250 5550 0    60   ~ 0
 R0
-Text Label 9250 1650 2    60   ~ 0
+Text Label 8150 5550 2    60   ~ 0
 R1
-Text Label 8150 1750 0    60   ~ 0
+Text Label 9250 5350 0    60   ~ 0
 R2
-Text Label 9250 1750 2    60   ~ 0
+Text Label 8150 5350 2    60   ~ 0
 R3
-Text Label 8150 1850 0    60   ~ 0
+Text Label 9250 5250 0    60   ~ 0
 R4
-Text Label 8150 1950 0    60   ~ 0
+Text Label 9250 5150 0    60   ~ 0
 R6
-Text Label 9250 1850 2    60   ~ 0
+Text Label 8150 5250 2    60   ~ 0
 R5
-Text Label 9250 1950 2    60   ~ 0
+Text Label 8150 5150 2    60   ~ 0
 R7
 $Comp
 L CONN_20X2 P2
@@ -128,37 +128,37 @@ F 1 "DE0_GPIO_1" V 8700 5000 50  0000 C CNN
 	1    8700 5000
 	1    0    0    -1  
 $EndComp
-Text Label 8150 2150 0    60   ~ 0
+Text Label 9250 5050 0    60   ~ 0
 G0
-Text Label 9250 2150 2    60   ~ 0
+Text Label 8150 5050 2    60   ~ 0
 G1
-Text Label 8150 2250 0    60   ~ 0
+Text Label 9250 4950 0    60   ~ 0
 G2
-Text Label 9250 2250 2    60   ~ 0
+Text Label 8150 4950 2    60   ~ 0
 G3
-Text Label 8150 2350 0    60   ~ 0
+Text Label 9250 4850 0    60   ~ 0
 G4
-Text Label 9250 2350 2    60   ~ 0
+Text Label 8150 4850 2    60   ~ 0
 G5
-Text Label 8150 2450 0    60   ~ 0
+Text Label 9250 4750 0    60   ~ 0
 G6
-Text Label 9250 2450 2    60   ~ 0
+Text Label 8150 4750 2    60   ~ 0
 G7
-Text Label 9250 2850 2    60   ~ 0
+Text Label 9250 4250 0    60   ~ 0
 B7
-Text Label 8150 2550 0    60   ~ 0
+Text Label 8150 4650 2    60   ~ 0
 B0
-Text Label 9250 2550 2    60   ~ 0
+Text Label 9250 4650 0    60   ~ 0
 B1
-Text Label 8150 2650 0    60   ~ 0
+Text Label 8150 4550 2    60   ~ 0
 B2
-Text Label 9250 2650 2    60   ~ 0
+Text Label 9250 4450 0    60   ~ 0
 B3
-Text Label 8150 2750 0    60   ~ 0
+Text Label 8150 4450 2    60   ~ 0
 B4
-Text Label 9250 2750 2    60   ~ 0
+Text Label 9250 4350 0    60   ~ 0
 B5
-Text Label 8150 2850 0    60   ~ 0
+Text Label 8150 4350 2    60   ~ 0
 B6
 $Comp
 L GND #PWR01
@@ -195,13 +195,13 @@ Text Label 3050 2150 2    60   ~ 0
 Hsync
 Text Label 3050 2050 2    60   ~ 0
 Vsync
-Text Label 9250 4050 0    60   ~ 0
-CK
-Text Label 8150 4150 2    60   ~ 0
-DISP
-Text Label 9250 4150 0    60   ~ 0
-Hsync
 Text Label 8150 4250 2    60   ~ 0
+CK
+Text Label 9250 4150 0    60   ~ 0
+DISP
+Text Label 8150 4150 2    60   ~ 0
+Hsync
+Text Label 9250 4050 0    60   ~ 0
 Vsync
 $Comp
 L GND #PWR04
@@ -260,8 +260,6 @@ Wire Wire Line
 	2900 2650 3050 2650
 Wire Wire Line
 	2900 2550 3050 2550
-Wire Wire Line
-	9100 1550 9250 1550
 Wire Wire Line
 	9100 1650 9250 1650
 Wire Wire Line
@@ -392,7 +390,7 @@ F5 "Vout-" I L 5150 6750 60
 $EndSheet
 Wire Wire Line
 	1750 4000 1500 4000
-Text Label 9250 4250 0    60   ~ 0
+Text Label 8100 3650 0    60   ~ 0
 dimm
 Wire Wire Line
 	9100 4250 9250 4250
@@ -448,9 +446,9 @@ Wire Wire Line
 	8300 4350 8150 4350
 Wire Wire Line
 	9100 4350 9250 4350
-Text Label 9250 4350 0    60   ~ 0
+Text Label 7900 3800 0    60   ~ 0
 5vENA
-Text Label 8150 4350 2    60   ~ 0
+Text Label 7650 3850 2    60   ~ 0
 3v3ENA
 Wire Wire Line
 	9100 4550 9550 4550
@@ -464,10 +462,10 @@ Wire Wire Line
 	9900 5000 9900 5250
 Connection ~ 9550 5000
 $Comp
-L GND #PWR06
+L GND #PWR05
 U 1 1 508D5FD4
 P 9900 5250
-F 0 "#PWR06" H 9900 5250 30  0001 C CNN
+F 0 "#PWR05" H 9900 5250 30  0001 C CNN
 F 1 "GND" H 9900 5180 30  0001 C CNN
 	1    9900 5250
 	1    0    0    -1  
@@ -488,10 +486,10 @@ Wire Wire Line
 Text Label 2850 5150 2    60   ~ 0
 6-24V
 $Comp
-L GND #PWR07
+L GND #PWR06
 U 1 1 50927877
 P 2850 5350
-F 0 "#PWR07" H 2850 5350 30  0001 C CNN
+F 0 "#PWR06" H 2850 5350 30  0001 C CNN
 F 1 "GND" H 2850 5280 30  0001 C CNN
 	1    2850 5350
 	1    0    0    -1  
@@ -525,15 +523,15 @@ Text Label 2000 6450 2    60   ~ 0
 CLK
 Text Label 2000 6550 2    60   ~ 0
 CMD
-Text Label 8150 4450 2    60   ~ 0
+Text Label 8150 5850 2    60   ~ 0
 DAT3
-Text Label 9250 4450 0    60   ~ 0
+Text Label 9250 5750 0    60   ~ 0
 DAT2
-Text Label 8150 4550 2    60   ~ 0
+Text Label 8150 5650 2    60   ~ 0
 DAT1
-Text Label 9250 4650 0    60   ~ 0
+Text Label 8150 5750 2    60   ~ 0
 CLK
-Text Label 8150 4650 2    60   ~ 0
+Text Label 9250 5850 0    60   ~ 0
 CMD
 Wire Wire Line
 	8300 4450 8150 4450
@@ -561,4 +559,50 @@ Text Label 5150 6750 2    60   ~ 0
 Vout-
 Text Label 1500 4000 2    60   ~ 0
 Vout-
+Wire Wire Line
+	9100 4750 9250 4750
+Wire Wire Line
+	8300 4750 8150 4750
+Wire Wire Line
+	8300 4850 8150 4850
+Wire Wire Line
+	8300 4950 8150 4950
+Wire Wire Line
+	8300 5050 8150 5050
+Wire Wire Line
+	8300 5150 8150 5150
+Wire Wire Line
+	8300 5250 8150 5250
+Wire Wire Line
+	8300 5350 8150 5350
+Wire Wire Line
+	9100 5350 9250 5350
+Wire Wire Line
+	9100 5250 9250 5250
+Wire Wire Line
+	9100 5150 9250 5150
+Wire Wire Line
+	9100 5050 9250 5050
+Wire Wire Line
+	9100 4950 9250 4950
+Wire Wire Line
+	9100 4850 9250 4850
+Wire Wire Line
+	8300 5550 8150 5550
+Wire Wire Line
+	8300 5650 8150 5650
+Wire Wire Line
+	9100 5550 9250 5550
+Wire Wire Line
+	9100 5650 9250 5650
+Text Label 9250 5650 0    60   ~ 0
+DAT0
+Wire Wire Line
+	8300 5750 8150 5750
+Wire Wire Line
+	9100 5750 9250 5750
+Wire Wire Line
+	8300 5850 8150 5850
+Wire Wire Line
+	9100 5850 9250 5850
 $EndSCHEMATC
