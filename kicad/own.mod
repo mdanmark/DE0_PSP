@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Wed 07 Nov 2012 15:43:24 CET
+PCBNEW-LibModule-V1  Sun 11 Nov 2012 13:36:35 CET
 # encoding utf-8
 Units mm
 $INDEX
@@ -756,7 +756,7 @@ Po 413 -98
 $EndPAD
 $EndMODULE psp1000conled
 $MODULE psp_backlight
-Po 0 0 0 15 509A6111 00000000 ~~
+Po 0 0 0 15 509F9BCB 00000000 ~~
 Li psp_backlight
 Sc 0
 AR 
@@ -804,14 +804,14 @@ Sh "5" R 1 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.5 -3
+Po 2.125 -3
 $EndPAD
 $PAD
 Sh "6" R 1 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2 -3
+Po -1.65 -2.975
 $EndPAD
 $EndMODULE psp_backlight
 $EndLIBRARY

@@ -1,8 +1,8 @@
-# EESchema Netlist Version 1.1 created  Thu 08 Nov 2012 11:50:03 CET
+# EESchema Netlist Version 1.1 created  Sun 11 Nov 2012 16:06:33 CET
 (
  ( /5086FB34 $noname  P2 DE0_GPIO_0 {Lib=CONN_20X2}
   (    1 ? )
-  (    2 ? )
+  (    2 /Sheet508A6549/3v3ENA )
   (    3 ? )
   (    4 ? )
   (    5 ? )
@@ -17,7 +17,7 @@
   (   14 ? )
   (   15 ? )
   (   16 ? )
-  (   17 ? )
+  (   17 /Sheet508A6549/5vENA )
   (   18 ? )
   (   19 ? )
   (   20 ? )
@@ -27,7 +27,7 @@
   (   24 ? )
   (   25 ? )
   (   26 ? )
-  (   27 ? )
+  (   27 /Sheet50883C15/dimm )
   (   28 ? )
   (   29 /Sheet508A6549/DE0_3v3 )
   (   30 GND )
@@ -39,7 +39,7 @@
   (   36 ? )
   (   37 ? )
   (   38 ? )
-  (   39 ? )
+  (   39 /B2 )
   (   40 ? )
  )
  ( /5086FB43 $noname  P3 DE0_GPIO_1 {Lib=CONN_20X2}
@@ -53,7 +53,7 @@
   (    8 /B5 )
   (    9 /B4 )
   (   10 /B3 )
-  (   11 /B2 )
+  (   11 ? )
   (   12 GND )
   (   13 /B0 )
   (   14 /B1 )
@@ -133,23 +133,23 @@
   (   40 GND )
  )
  ( /50927695 $noname  P5 CONN_2 {Lib=CONN_2}
-  (    1 ? )
+  (    1 /Sheet508A6549/V6_24 )
   (    2 GND )
  )
  ( /50883C16/508849D1 $noname  U1 LT1932 {Lib=LT1932}
-  (    1 N-000093 )
+  (    1 N-000090 )
   (    2 GND )
   (    3 /Sheet50883C15/Vout- )
-  (    4 N-000092 )
-  (    5 N-000091 )
+  (    4 N-000089 )
+  (    5 N-000088 )
   (    6 /Sheet508A6549/5Vreg )
  )
  ( /50883C16/508849E0 $noname  L1 6.8uH {Lib=INDUCTOR_SMALL}
   (    1 /Sheet508A6549/5Vreg )
-  (    2 N-000093 )
+  (    2 N-000090 )
  )
  ( /50883C16/508849EF $noname  D1 ZETEX_ZHCS400 {Lib=DIODESCH}
-  (    1 N-000093 )
+  (    1 N-000090 )
   (    2 /Sheet50883C15/Vout )
  )
  ( /50883C16/508849FE $noname  C3 1uF {Lib=C}
@@ -161,7 +161,7 @@
   (    2 GND )
  )
  ( /50883C16/50884A1C $noname  R2 900 {Lib=R}
-  (    1 N-000092 )
+  (    1 N-000089 )
   (    2 GND )
  )
  ( /50883C16/50884C55 $noname  D2 ZENER_30V {Lib=ZENER}
@@ -170,20 +170,20 @@
  )
  ( /50883C16/50884CAA TO92  Q1 BC547 {Lib=BC547}
   (    1 /Sheet50883C15/Vout )
-  (    2 N-000094 )
+  (    2 N-000091 )
   (    3 /Sheet50883C15/Vout- )
  )
  ( /50883C16/50884CB9 $noname  R3 1500 {Lib=R}
-  (    1 N-000094 )
+  (    1 N-000091 )
   (    2 GND )
  )
  ( /50883C16/50884CD2 $noname  C2 47nF {Lib=C}
   (    1 /Sheet50883C15/Vout )
-  (    2 N-000094 )
+  (    2 N-000091 )
  )
  ( /50883C16/508851BA $noname  R1 300 {Lib=R}
-  (    1 ? )
-  (    2 N-000091 )
+  (    1 /Sheet50883C15/dimm )
+  (    2 N-000088 )
  )
  ( /508A654A/508A6583 $noname  C7 4.7_uF {Lib=CP1}
   (    1 /Sheet508A6549/Vout3v3 )
@@ -207,44 +207,44 @@
   (    3 /Sheet508A6549/Vout5v )
  )
  ( /508A654A/508D237C $noname  U2 AP5100 {Lib=AP5100}
-  (    1 N-000100 )
+  (    1 N-000096 )
   (    2 GND )
-  (    3 N-000103 )
+  (    3 N-000099 )
   (    4 /Sheet508A6549/5vENA )
-  (    5 /Sheet508A6549/Vin )
-  (    6 N-000102 )
+  (    5 /Sheet508A6549/V6_24 )
+  (    6 N-000098 )
  )
  ( /508A654A/508D288D $noname  R4 100k {Lib=R}
-  (    1 /Sheet508A6549/Vin )
+  (    1 /Sheet508A6549/V6_24 )
   (    2 /Sheet508A6549/5vENA )
  )
  ( /508A654A/508D28A1 $noname  C5 10uF {Lib=C}
   (    1 GND )
-  (    2 /Sheet508A6549/Vin )
+  (    2 /Sheet508A6549/V6_24 )
  )
  ( /508A654A/508D2E75 $noname  C11 22nF {Lib=C}
-  (    1 N-000100 )
-  (    2 N-000102 )
+  (    1 N-000096 )
+  (    2 N-000098 )
  )
  ( /508A654A/508D2E9B $noname  L2 3.3uH_SPM6530 {Lib=INDUCTOR_SMALL}
-  (    1 N-000102 )
+  (    1 N-000098 )
   (    2 /Sheet508A6549/Vout5v )
  )
  ( /508A654A/508D2EAA $noname  R5 49.9k {Lib=R}
   (    1 /Sheet508A6549/Vout5v )
-  (    2 N-000103 )
+  (    2 N-000099 )
  )
  ( /508A654A/508D2EB9 $noname  R6 9.53 {Lib=R}
-  (    1 N-000103 )
+  (    1 N-000099 )
   (    2 GND )
  )
  ( /508A654A/508D2F30 $noname  C12 100pF {Lib=C}
   (    1 /Sheet508A6549/Vout5v )
-  (    2 N-000103 )
+  (    2 N-000099 )
  )
  ( /508A654A/508D303A $noname  D3 B230A {Lib=DIODESCH}
   (    1 GND )
-  (    2 N-000102 )
+  (    2 N-000098 )
  )
  ( /508A654A/508D30A4 $noname  C13 22uF {Lib=C}
   (    1 /Sheet508A6549/Vout5v )
@@ -254,7 +254,7 @@
   (    1 /Sheet508A6549/5Vreg )
   (    2 GND )
   (    3 /Sheet508A6549/3v3ENA )
-  (    4 N-000095 )
+  (    4 N-000092 )
   (    5 /Sheet508A6549/Vout3v3 )
  )
  ( /508A654A/508D3C47 $noname  R7 100k {Lib=R}
@@ -262,7 +262,7 @@
   (    2 /Sheet508A6549/3v3ENA )
  )
  ( /508A654A/508D3E7D $noname  C14 10nF {Lib=C}
-  (    1 N-000095 )
+  (    1 N-000092 )
   (    2 GND )
  )
  ( /508A654A/508D3F46 $noname  K2 CONN_3 {Lib=CONN_3}
@@ -271,20 +271,20 @@
   (    3 /Sheet508A6549/Vout3v3 )
  )
  ( /508A654A/508D428A $noname  D4 LED {Lib=LED}
-  (    1 N-000098 )
+  (    1 N-000095 )
   (    2 GND )
  )
  ( /508A654A/508D4297 $noname  D5 LED {Lib=LED}
-  (    1 N-000099 )
+  (    1 N-000094 )
   (    2 GND )
  )
  ( /508A654A/508D42B3 $noname  R9 R {Lib=R}
   (    1 /Sheet508A6549/5Vreg )
-  (    2 N-000099 )
+  (    2 N-000094 )
  )
  ( /508A654A/508D42DE $noname  R8 R {Lib=R}
   (    1 /Sheet509280A3/3.3v )
-  (    2 N-000098 )
+  (    2 N-000095 )
  )
  ( /509280A4/508A8F8D $noname  R11 10k {Lib=R}
   (    1 /Sheet509280A3/CMD )
@@ -541,247 +541,253 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "/Sheet509280A3/3.3v" "3.3v"
+Net 1 "/Sheet508A6549/V6_24" "V6_24"
+ P5 1
+ U2 5
+ R4 1
+ C5 2
+Net 2 "/Sheet508A6549/3v3ENA" "3v3ENA"
+ R7 2
+ U3 3
+ P2 2
+Net 3 "/Sheet509280A3/3.3v" "3.3v"
+ U4 4
+ C4 1
+ C6 1
+ K2 2
+ R8 1
+ P1 4
+ R14 1
  R10 1
+ P1 3
  R12 1
  R13 1
  R15 1
  R11 2
- U4 4
- K2 2
- P1 4
- P1 3
- R8 1
- C6 1
- C4 1
- R14 1
-Net 2 "/Sheet508A6549/DE0_3v3" "DE0_3v3"
- P2 29
- K2 1
-Net 3 "/Sheet508A6549/DE0_5v" "DE0_5v"
- P2 11
- K1 1
-Net 5 "/Sheet50883C15/Vout-" "Vout-"
- D2 1
- P4 1
- U1 3
- Q1 3
-Net 7 "/Vsync" "Vsync"
+Net 6 "/DISP" "DISP"
+ P1 31
+ P3 4
+Net 7 "/CK" "CK"
+ P1 30
+ P3 5
+Net 8 "/Hsync" "Hsync"
+ P1 32
+ P3 3
+Net 9 "/Vsync" "Vsync"
  P1 33
  P3 2
-Net 8 "/DISP" "DISP"
- P3 4
- P1 31
-Net 14 "/Sheet50883C15/Vout" "Vout"
+Net 10 "/Sheet508A6549/DE0_3v3" "DE0_3v3"
+ P2 29
+ K2 1
+Net 11 "/Sheet508A6549/DE0_5v" "DE0_5v"
+ P2 11
+ K1 1
+Net 12 "/Sheet50883C15/Vout-" "Vout-"
+ Q1 3
+ D2 1
+ U1 3
+ P4 1
+Net 13 "/Sheet50883C15/Vout" "Vout"
  P4 4
- Q1 1
- D2 2
- D1 2
  C2 1
  C3 1
+ D1 2
+ D2 2
+ Q1 1
 Net 15 "/Sheet508A6549/5Vreg" "5Vreg"
- C1 1
- R7 1
- R9 1
- U3 1
- U1 6
- L1 1
  P1 36
  P1 35
+ C1 1
+ U1 6
+ L1 1
+ R9 1
  K1 2
  C8 1
  C9 1
  C10 1
-Net 18 "/CK" "CK"
- P1 30
- P3 5
-Net 19 "/Hsync" "Hsync"
- P3 3
- P1 32
-Net 20 "/Sheet509280A3/CMD" "CMD"
+ U3 1
+ R7 1
+Net 18 "/Sheet509280A3/CMD" "CMD"
+ U4 3
  P3 38
  R11 1
- U4 3
-Net 21 "/Sheet509280A3/CLK" "CLK"
- U4 5
- R10 2
+Net 19 "/Sheet509280A3/CLK" "CLK"
  P3 35
-Net 22 "/Sheet509280A3/DAT1" "DAT1"
+ R10 2
+ U4 5
+Net 20 "/Sheet509280A3/DAT1" "DAT1"
+ R13 2
  P3 33
  U4 8
- R13 2
-Net 23 "/Sheet509280A3/DAT2" "DAT2"
- P3 36
+Net 21 "/Sheet509280A3/DAT2" "DAT2"
  R14 2
  U4 1
-Net 24 "/Sheet509280A3/DAT3" "DAT3"
- U4 2
+ P3 36
+Net 22 "/Sheet509280A3/DAT3" "DAT3"
  P3 37
  R15 2
-Net 25 "/Sheet508A6549/3v3ENA" "3v3ENA"
- U3 3
- R7 2
-Net 26 "/Sheet508A6549/5vENA" "5vENA"
- U2 4
- R4 2
-Net 30 "/Sheet509280A3/DAT0" "DAT0"
+ U4 2
+Net 23 "/Sheet509280A3/DAT0" "DAT0"
+ U4 7
  P3 34
  R12 2
- U4 7
-Net 31 "GND" "GND"
- U1 2
+Net 24 "/R0" "R0"
+ P1 5
+ P3 32
+Net 25 "GND" "GND"
+ C4 2
+ P5 2
+ U3 2
  R2 2
  C1 2
  C3 2
- C5 1
+ P3 30
+ U1 2
+ P2 30
+ P2 12
+ R3 2
+ C14 2
+ C7 2
+ C10 2
+ C9 2
+ C8 2
+ U4 9
  D3 1
  C13 2
- P5 2
+ R6 2
+ D5 2
+ P1 39
+ C6 2
+ D4 2
  P1 29
  U4 6
- P3 30
- P1 39
- P3 12
- R6 2
- D4 2
- R3 2
  U2 2
- P2 12
- C4 2
- C14 2
- C6 2
- U3 2
- U4 9
+ C5 1
  P1 2
  P1 1
- P2 30
- C8 2
- C7 2
+ P3 12
  P1 40
- C9 2
- D5 2
- C10 2
-Net 32 "/R0" "R0"
- P3 32
- P1 5
+Net 27 "/Sheet508A6549/5vENA" "5vENA"
+ U2 4
+ R4 2
+ P2 17
+Net 37 "/Sheet50883C15/dimm" "dimm"
+ P2 27
+ R1 1
 Net 54 "/G2" "G2"
  P3 20
  P1 15
-Net 55 "/B5" "B5"
- P3 8
- P1 26
-Net 56 "/B4" "B4"
- P1 25
+Net 55 "/B4" "B4"
  P3 9
-Net 57 "/B3" "B3"
- P3 10
+ P1 25
+Net 56 "/B3" "B3"
  P1 24
-Net 58 "/B2" "B2"
- P3 11
+ P3 10
+Net 57 "/B2" "B2"
+ P2 39
  P1 23
-Net 59 "/B1" "B1"
+Net 58 "/B1" "B1"
  P1 22
  P3 14
-Net 60 "/B0" "B0"
+Net 59 "/B0" "B0"
  P1 21
  P3 13
-Net 61 "/G7" "G7"
+Net 60 "/G7" "G7"
  P3 15
  P1 20
-Net 62 "/G6" "G6"
+Net 61 "/G6" "G6"
  P1 19
  P3 16
-Net 63 "/G5" "G5"
- P1 18
+Net 62 "/G5" "G5"
  P3 17
-Net 64 "/G4" "G4"
- P3 18
+ P1 18
+Net 63 "/G4" "G4"
  P1 17
-Net 65 "/G3" "G3"
+ P3 18
+Net 64 "/G3" "G3"
  P3 19
  P1 16
-Net 66 "/B6" "B6"
- P3 7
- P1 27
-Net 67 "/G1" "G1"
+Net 65 "/B5" "B5"
+ P3 8
+ P1 26
+Net 66 "/G1" "G1"
  P3 21
  P1 14
-Net 68 "/G0" "G0"
- P3 22
+Net 67 "/G0" "G0"
  P1 13
-Net 69 "/R7" "R7"
- P1 12
+ P3 22
+Net 68 "/R7" "R7"
  P3 23
-Net 70 "/R6" "R6"
+ P1 12
+Net 69 "/R6" "R6"
  P1 11
  P3 24
-Net 71 "/R5" "R5"
- P1 10
+Net 70 "/R5" "R5"
  P3 25
-Net 72 "/R4" "R4"
+ P1 10
+Net 71 "/R4" "R4"
  P3 26
  P1 9
-Net 73 "/R3" "R3"
+Net 72 "/R3" "R3"
  P1 8
  P3 27
-Net 74 "/R2" "R2"
+Net 73 "/R2" "R2"
  P1 7
  P3 28
-Net 75 "/R1" "R1"
- P3 31
+Net 74 "/R1" "R1"
  P1 6
-Net 88 "/B7" "B7"
- P3 6
+ P3 31
+Net 84 "/B7" "B7"
  P1 28
-Net 91 "" ""
+ P3 6
+Net 85 "/B6" "B6"
+ P1 27
+ P3 7
+Net 88 "" ""
  U1 5
  R1 2
-Net 92 "" ""
- U1 4
+Net 89 "" ""
  R2 1
-Net 93 "" ""
- L1 2
+ U1 4
+Net 90 "" ""
  D1 1
+ L1 2
  U1 1
-Net 94 "" ""
- C2 2
- R3 1
+Net 91 "" ""
  Q1 2
-Net 95 "" ""
+ R3 1
+ C2 2
+Net 92 "" ""
  U3 4
  C14 1
-Net 96 "/Sheet508A6549/Vout5v" "Vout5v"
- K1 3
- C13 1
+Net 93 "/Sheet508A6549/Vout5v" "Vout5v"
  L2 2
  R5 1
  C12 1
-Net 97 "/Sheet508A6549/Vin" "Vin"
- C5 2
- R4 1
- U2 5
-Net 98 "" ""
- D4 1
- R8 2
-Net 99 "" ""
+ C13 1
+ K1 3
+Net 94 "" ""
  R9 2
  D5 1
-Net 100 "" ""
+Net 95 "" ""
+ R8 2
+ D4 1
+Net 96 "" ""
  U2 1
  C11 1
-Net 101 "/Sheet508A6549/Vout3v3" "Vout3v3"
+Net 97 "/Sheet508A6549/Vout3v3" "Vout3v3"
  K2 3
- C7 1
  U3 5
-Net 102 "" ""
- D3 2
- U2 6
+ C7 1
+Net 98 "" ""
  C11 2
  L2 1
-Net 103 "" ""
- U2 3
- R5 2
+ D3 2
+ U2 6
+Net 99 "" ""
  C12 2
  R6 1
+ R5 2
+ U2 3
 }
 #End

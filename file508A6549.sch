@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 08 Nov 2012 00:17:25 CET
+EESchema Schematic File Version 2  date Sun 11 Nov 2012 16:06:29 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "power supply"
-Date "7 nov 2012"
+Date "11 nov 2012"
 Rev "0.1"
 Comp ""
 Comment1 ""
@@ -95,10 +95,10 @@ Wire Wire Line
 Wire Wire Line
 	2800 1050 2800 850 
 $Comp
-L GND #PWR09
+L GND #PWR08
 U 1 1 508A66C1
 P 2800 1650
-F 0 "#PWR09" H 2800 1650 30  0001 C CNN
+F 0 "#PWR08" H 2800 1650 30  0001 C CNN
 F 1 "GND" H 2800 1580 30  0001 C CNN
 	1    2800 1650
 	1    0    0    -1  
@@ -130,7 +130,7 @@ $EndComp
 Wire Wire Line
 	1950 3550 1250 3550
 Wire Wire Line
-	1950 3050 1250 3050
+	650  3050 1950 3050
 $Comp
 L R R4
 U 1 1 508D288D
@@ -142,8 +142,6 @@ F 1 "100k" V 1750 3300 50  0000 C CNN
 $EndComp
 Text Label 1250 3550 2    60   ~ 0
 5vENA
-Text Label 1250 3050 2    60   ~ 0
-Vin
 $Comp
 L C C5
 U 1 1 508D28A1
@@ -158,10 +156,10 @@ Wire Wire Line
 Wire Wire Line
 	1200 2650 1200 2700
 $Comp
-L GND #PWR010
+L GND #PWR09
 U 1 1 508D28C4
 P 1200 2700
-F 0 "#PWR010" H 1200 2700 30  0001 C CNN
+F 0 "#PWR09" H 1200 2700 30  0001 C CNN
 F 1 "GND" H 1200 2630 30  0001 C CNN
 	1    1200 2700
 	1    0    0    -1  
@@ -239,10 +237,10 @@ Wire Wire Line
 	3850 4500 3850 4700
 Connection ~ 3850 4500
 $Comp
-L GND #PWR011
+L GND #PWR010
 U 1 1 508D301C
 P 3850 4700
-F 0 "#PWR011" H 3850 4700 30  0001 C CNN
+F 0 "#PWR010" H 3850 4700 30  0001 C CNN
 F 1 "GND" H 3850 4630 30  0001 C CNN
 	1    3850 4700
 	1    0    0    -1  
@@ -314,10 +312,10 @@ Wire Wire Line
 Wire Wire Line
 	7800 3300 7800 3400
 $Comp
-L GND #PWR012
+L GND #PWR011
 U 1 1 508D3C07
 P 7800 3400
-F 0 "#PWR012" H 7800 3400 30  0001 C CNN
+F 0 "#PWR011" H 7800 3400 30  0001 C CNN
 F 1 "GND" H 7800 3330 30  0001 C CNN
 	1    7800 3400
 	1    0    0    -1  
@@ -357,10 +355,10 @@ Wire Wire Line
 Wire Wire Line
 	9300 4150 9300 4250
 $Comp
-L GND #PWR013
+L GND #PWR012
 U 1 1 508D3EFA
 P 9300 4250
-F 0 "#PWR013" H 9300 4250 30  0001 C CNN
+F 0 "#PWR012" H 9300 4250 30  0001 C CNN
 F 1 "GND" H 9300 4180 30  0001 C CNN
 	1    9300 4250
 	1    0    0    -1  
@@ -440,7 +438,7 @@ Wire Wire Line
 	2500 2050 2500 1450
 Connection ~ 2500 1050
 Text HLabel 1000 4800 0    60   Input ~ 0
-V6-24
+V6_24
 Text HLabel 1000 5000 0    60   Input ~ 0
 DE0_5v
 Text HLabel 1000 5200 0    60   Input ~ 0
@@ -449,8 +447,6 @@ Text HLabel 1000 5400 0    60   Input ~ 0
 5Vreg
 Text HLabel 1000 5600 0    60   Input ~ 0
 3v3Vreg
-Text Label 1000 4800 0    60   ~ 0
-Vin
 Text Label 1000 5000 0    60   ~ 0
 DE0_5v
 Text Label 1000 5200 0    60   ~ 0
@@ -468,10 +464,10 @@ Text Label 1000 6200 0    60   ~ 0
 Text Label 1000 6000 0    60   ~ 0
 5vENA
 $Comp
-L GND #PWR014
+L GND #PWR013
 U 1 1 508E96BB
 P 1000 2050
-F 0 "#PWR014" H 1000 2050 30  0001 C CNN
+F 0 "#PWR013" H 1000 2050 30  0001 C CNN
 F 1 "GND" H 1000 1980 30  0001 C CNN
 	1    1000 2050
 	1    0    0    -1  
@@ -487,4 +483,12 @@ Connection ~ 3450 3300
 Connection ~ 3450 3700
 Connection ~ 1750 3050
 Connection ~ 1750 3550
+Wire Wire Line
+	650  3050 650  4550
+Wire Wire Line
+	650  4550 1150 4550
+Wire Wire Line
+	1150 4550 1150 4800
+Wire Wire Line
+	1150 4800 1000 4800
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 08 Nov 2012 00:17:25 CET
+EESchema Schematic File Version 2  date Sun 11 Nov 2012 16:06:29 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "LCD backlight driver"
-Date "7 nov 2012"
+Date "11 nov 2012"
 Rev "0.1"
 Comp ""
 Comment1 ""
@@ -177,10 +177,10 @@ Wire Wire Line
 	4950 4400 4950 4500
 Connection ~ 4950 4400
 $Comp
-L GND #PWR08
+L GND #PWR07
 U 1 1 50884EBB
 P 4950 4500
-F 0 "#PWR08" H 4950 4500 30  0001 C CNN
+F 0 "#PWR07" H 4950 4500 30  0001 C CNN
 F 1 "GND" H 4950 4430 30  0001 C CNN
 	1    4950 4500
 	1    0    0    -1  
